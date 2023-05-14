@@ -1,0 +1,29 @@
+.progress {
+  width: 1300px;
+  height: 20px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+
+.progress-bar {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #F06292;
+  transition:  0.5s ease-in-out;
+}
+
+.progress-bar::before {
+  content:"";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+.progress-bar:hover {
+  background-color: #F8BBD0;
+}
+
